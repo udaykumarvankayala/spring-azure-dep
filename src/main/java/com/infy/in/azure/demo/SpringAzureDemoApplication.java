@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @RestController
 public class SpringAzureDemoApplication {
-    @GetMapping("/message")
+    @GetMapping("/msg")
      public String message(){
          return "congrats uday good job super good super";
 
