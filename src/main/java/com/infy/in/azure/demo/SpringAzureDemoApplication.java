@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class SpringAzureDemoApplication {
     @GetMapping("/message")
      public String message(){
-         return "congrats uday good job super good";
+         return "congrats uday good job super good super";
 
     }
 
